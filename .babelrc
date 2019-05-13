@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react",
+    "stage-0",
+    [ "env", {
+      "targets": {
+        "browsers": "> 2%"
+      }
+    }]
+  ],
+
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-object-rest-spread", 
+    "transform-class-properties"
+  ]
+}

@@ -1,0 +1,64 @@
+$color: green;
+
+// body {
+//   color: $color;
+// }
+
+@import '../../components/GamePlayer/gamePlayer';
+@import '../../components/PlayerTitle/playerTitle';
+
+#gamePlayContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 58%;
+}
+
+#scoreKeeperContainerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+
+#scoreBoardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#scoreKeeperScoreboardText {
+  font-size: 24px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#scoreKeeperScoreText {
+  font-size: 16px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin-top: 10px;
+}
+
+#resetScoreDiv {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#resultsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  height: 300px;
+}
+
+#computerImg {
+  margin-right: 30px;
+}
+
+#playerImg {
+  margin-left: 30px;
+}
