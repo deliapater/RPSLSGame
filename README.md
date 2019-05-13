@@ -1,16 +1,16 @@
 # rock-paper-scissors-lizard-spock game using React
 
-This is an expansion on the classic, made popular by The Big Bang Theory, just a few additional rules;
-Scissors cuts Paper
-Paper covers Rock
-Rock crushes Lizard
-Lizard poisons Spock
-Spock smashes Scissors
-Scissors decapitates Lizard
-Lizard eats Paper
-Paper disproves Spock
-Spock vaporizes Rock
-(and as it always has) Rock crushes Scissors
+This is an expansion on the classic, made popular by The Big Bang Theory, just a few additional rules;</br>
+Scissors cuts Paper</br>
+Paper covers Rock</br>
+Rock crushes Lizard</br>
+Lizard poisons Spock</br>
+Spock smashes Scissors</br>
+Scissors decapitates Lizard</br>
+Lizard eats Paper</br>
+Paper disproves Spock</br>
+Spock vaporizes Rock</br>
+(and as it always has) Rock crushes Scissors</br>
 
 The application takes a player gesture as input, and using random behaviour generates a counter gesture, and calculates the winner.
 
