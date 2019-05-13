@@ -18,7 +18,7 @@ The application takes a player gesture as input, and using random behaviour gene
 
 Make sure you have the latest stable version of Node.js installed.
 
-1. `git clone https://github.com/deliapater/rock-paper-scissors-lizard-spock.git`
+1. `git clone https://github.com/deliapater/RPSLSGame.git`
 2. Run `npm install` or `yarn install`
 3. Start the dev server using `npm (or yarn) start`
 3. Open [http://localhost:8080](http://localhost:8080)
