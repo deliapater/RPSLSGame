@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { dispatch } from 'redux';
 import { connect } from 'react-redux';
 
-import ScoreKeeper from '../SharedComponents/ScoreKeeper/ScoreKeeper.jsx';
+import Score from '../SharedComponents/ScoreKeeper/Score.jsx';
 import ResetScore from './ResetScore.jsx';
 import { resetScoreboard } from '../../redux/actions/playerActions.js';
 
-class ScoreKeeperContainer extends Component {
+class ScoreContainer extends Component {
     constructor(props) {
         super(props)
 
@@ -19,14 +19,14 @@ class ScoreKeeperContainer extends Component {
 
     render() {
         return (
-            <div id="scoreKeeperContainerDiv">
-                <div id="scoreKeeperScoreboardText">
+            <div id="scoreContainerDiv">
+                <div id="scoreScoreboardText">
                     SCOREBOARD
                 </div>
                 <div id="scoreBoardDiv">
-                    <ScoreKeeper color={"secondary"} score={this.props.player.computerScore} list={this.props.player.computerWinSelections} />
+                    <Score color={"secondary"} score={this.props.player.computerScore} list={this.props.player.computerWinSelections} />
                     <ResetScore onClick={this.onClick} />
-                    <ScoreKeeper color={"primary"} score={this.props.player.playerScore} list={this.props.player.playerWinSelections} />
+                    <Score color={"primary"} score={this.props.player.playerScore} list={this.props.player.playerWinSelections} />
                 </div>
             </div>
         )
@@ -39,4 +39,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(ScoreKeeperContainer);
+export default connect(mapStateToProps)(ScoreContainer);
