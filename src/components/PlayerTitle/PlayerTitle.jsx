@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default function PlayerName() {
+export default function PlayerTitle() {
     return (
         <div id="playerTitleDiv">
             <div id="computerTitleText" className="playerTitleText">
